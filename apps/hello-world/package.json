@@ -1,0 +1,15 @@
+{
+  "name": "@hello-world/app",
+  "license": "BOBBO-NET Friendly MIT License",
+  "private": "true",
+  "scripts": {
+    "dev": "tsx watch src/app.ts",
+    "start": "tsx src/app.ts"
+  },
+  "devDependencies": {
+    "tsx": "^4.7.1"
+  },
+  "dependencies": {
+    "@hello-world/shared-things": "workspace:*"
+  }
+}
