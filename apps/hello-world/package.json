@@ -10,6 +10,6 @@
     "tsx": "^4.7.1"
   },
   "dependencies": {
-    "@hello-world/shared-things": "workspace:*"
+    "@rename-me/shared-things": "workspace:*"
   }
 }
