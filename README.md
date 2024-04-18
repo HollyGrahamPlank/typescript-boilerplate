@@ -1,12 +1,14 @@
 # typescript-boilerplate
 
-A template project that just includes enough to start a TypeScript application.
+A template project that just enough to start a TypeScript monorepo.
 
 # Features
 
+- PNPM!
 - TypeScript!
-- Run w/out compile via `npm run dev`
-- Tests w/ Jest via `npm run test`
-- Auto reload on file change via `npm run dev:watch`
-- Auto re-run tests on file change via `npm run test:watch`
+- Vitest!
+- See `apps/hello-world` for an example of a runtime application
+- See `packages/shared-things` for an example of a built & shared package
+- Build anything in apps/ or packages/ with `pnpm build`
+- Test anything in apps/ or packages/ with `pnpm build`
 - Linked linting and formatting using the AirBnB TypeScript standards
