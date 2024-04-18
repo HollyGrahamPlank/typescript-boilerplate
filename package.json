@@ -1,15 +1,7 @@
 {
-  "name": "emptystream",
+  "name": "rename-me",
   "type": "module",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/HollyGrahamPlank/emptystream.git"
-  },
   "license": "BOBBO-NET Friendly MIT License",
-  "bugs": {
-    "url": "https://github.com/HollyGrahamPlank/emptystream/issues"
-  },
-  "homepage": "https://github.com/HollyGrahamPlank/emptystream#readme",
   "scripts": {
     "dev": "ts-node-esm src/app.ts",
     "dev:watch": "nodemon src/app.ts",
