@@ -44,8 +44,5 @@
     "react/require-default-props": "off",
     "react/jsx-props-no-spreading": "off"
   },
-  "overrides": [
-    { "files": ["*.{c,m,}{t,j}s", "*.{t,j}sx"] },
-    { "files": ["*{test,spec}.{t,j}s?(x)"], "env": { "jest": true } }
-  ]
+  "overrides": [{ "files": ["*.{c,m,}{t,j}s", "*.{t,j}sx"] }]
 }
