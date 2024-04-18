@@ -1,3 +1,7 @@
 import someText from "@rename-me/shared-things";
 
-console.log(someText);
+const runApp = () => {
+  console.log(someText);
+};
+
+export default runApp;

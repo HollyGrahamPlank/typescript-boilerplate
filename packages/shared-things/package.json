@@ -9,7 +9,7 @@
     "dist"
   ],
   "scripts": {
-    "test": "jest",
+    "test": "vitest",
     "build": "pnpm run clean && pnpm run compile",
     "clean": "rimraf ./dist",
     "compile": "tsc -p tsconfig.build.json",

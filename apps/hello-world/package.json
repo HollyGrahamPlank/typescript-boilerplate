@@ -3,8 +3,9 @@
   "license": "BOBBO-NET Friendly MIT License",
   "private": "true",
   "scripts": {
-    "dev": "tsx watch src/app.ts",
-    "start": "tsx src/app.ts"
+    "dev": "tsx watch src/index.ts",
+    "start": "tsx src/index.ts",
+    "test": "vitest"
   },
   "devDependencies": {
     "tsx": "^4.7.1"
